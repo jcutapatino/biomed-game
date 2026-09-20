@@ -15,6 +15,25 @@
     <h2>Selecciona un equipo</h2>
 
     <button>Microscopio</button>
+    <p>Aprende de manera interactiva sobre diferentes equipos biomédicos.</p>
+
+<h2>Selecciona un equipo</h2>
+
+<button onclick="mostrarMicroscopio()">Microscopio</button>
+<button>Desfibrilador</button>
+<button>Equipo de órganos</button>
+<button>Bomba de infusión</button>
+
+<div id="microscopio" style="display: none; margin-top: 20px;">
+    <h3>Microscopio</h3>
+    <img src="microscopio.jpg" alt="Microscopio" width="300">
+</div>
+
+<script>
+function mostrarMicroscopio() {
+    document.getElementById("microscopio").style.display = "block";
+}
+</script>
     <button>Desfibrilador</button>
     <button>Equipo de órganos</button>
     <button>Bomba de infusión</button>
